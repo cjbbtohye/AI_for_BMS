@@ -1,0 +1,22 @@
+[project]
+name = "bms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.13.0",
+    "fastmcp",
+    "graphviz",
+    "fastapi",
+    "matplotlib",
+    "numpy",
+    "pillow",
+    "seaborn",
+    "torch>=2.8.0",
+    "scipy>=1.16.1",
+]
+
+
+[tool.setuptools]
+py-modules = ["main"]
